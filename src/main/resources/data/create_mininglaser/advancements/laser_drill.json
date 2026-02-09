@@ -14,9 +14,12 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-          { "item": "create_mininglaser:laser_drill" }
+          { "items": ["create_mininglaser:laser_drill"] }
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    ["has_laser_drill"]
+  ]
 }
